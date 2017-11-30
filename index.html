@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles_beta.css">
+    <title> Freedeform_beta </title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > 20) {
+                $('#logo_pic').stop().animate({ width: "0" }, 500);
+                $('#home').stop().animate({ opacity: "0.3" }, 500);
+            }
+            else {
+                $('#home').stop().animate({ opacity: "1" }, 500);
+                if ($(window).width() <= 768) {
+                    $('#logo_pic').stop().animate({ width: "80vw" }, 500);
+                }
+                else {
+                    $('#logo_pic').stop().animate({ width: "40vw" }, 500);
+                }
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <img id="logo_pic" src="logo_test.gif" alt="Freedform" />
+        <!--<section id="nav">-->
+        <ul id="nav">
+            <li>
+                <a href="#interior">INTERIOR</a>
+                <li>
+                    <a href="#residential">RESIDENTIAL</a>
+                    <li>
+                        <a href="#earth_design">EARTH DESIGN</a>
+                        <li>
+                            <a href="#graphic_design" class="pink_link">GRAPHIC DESIGN</a>
+                            <li>
+                                <a href="#profil_contact">CONTACT</a>
+                                <li>
+                                    <a href="#home">HOME</a>
+        </ul>
+        <!--</section>-->
+    </header>
+    <main>
+        <section id="home" class="home_two">
+            <p class="space_text"> ARCHITECTURE, INTERIOR DESIGN, GREEN BUILDINGS, 3D VIZUSALIZATION, ILLUSTRATION AND GRAPHIC DESIGN</p>
+        </section>
+
+        <section id="interior">
+            <div class="space_gallery"></div>
+            <!-- 1 pic interior-->
+            <a class="fade_img" href="#interior1">
+                <img src="gallery/interior/1-small.jpg" />
+            </a>
+            <div id="interior1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/1.jpg" />
+                </div>
+            </div>
+            <!-- 2 pic interior -->
+            <a class="fade_img" href="#interior2">
+                <img src="gallery/interior/2-small.jpg" />
+            </a>
+            <div id="interior2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/2.jpg" />
+                </div>
+            </div>
+            <!-- 3 pic interior -->
+            <a class="fade_img" href="#interior3">
+                <img src="gallery/interior/3-small.jpg" />
+            </a>
+            <div id="interior3" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/3.jpg" />
+                </div>
+            </div>
+            <!-- 4 pic interior -->
+            <a class="fade_img" href="#interior4">
+                <img src="gallery/interior/4-small.jpg" />
+            </a>
+            <div id="interior4" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/4.jpg" />
+                </div>
+            </div>
+            <!-- 5 pic interior -->
+            <a class="fade_img" href="#interior5">
+                <img src="gallery/interior/5-small.jpg" />
+            </a>
+            <div id="interior5" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/5.jpg" />
+                </div>
+            </div>
+            <!-- 6 pic interior -->
+            <a class="fade_img" href="#interior6">
+                <img src="gallery/interior/6-small.jpg" />
+            </a>
+            <div id="interior6" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/6.jpg" />
+                </div>
+            </div>
+            <!-- 7 pic interior -->
+            <a class="fade_img" href="#interior7">
+                <img src="gallery/interior/7-small.jpg" />
+            </a>
+            <div id="interior7" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/7.jpg" />
+                </div>
+            </div>
+            <!-- 8 pic interior -->
+            <a class="fade_img" href="#interior8">
+                <img src="gallery/interior/8-small.jpg" />
+            </a>
+            <div id="interior8" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/8.jpg" />
+                </div>
+            </div>
+            <!-- 9 pic interior -->
+            <a class="fade_img" href="#interior9">
+                <img src="gallery/interior/9-small.jpg" />
+            </a>
+            <div id="interior9" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/9.jpg" />
+                </div>
+            </div>
+            <!-- 10 pic interior -->
+            <a class="fade_img" href="#interior10">
+                <img src="gallery/interior/10-small.jpg" />
+            </a>
+            <div id="interior10" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/10.jpg" />
+                </div>
+            </div>
+            <!-- 11 pic interior -->
+            <a class="fade_img" href="#interior11">
+                <img src="gallery/interior/11-small.jpg" />
+            </a>
+            <div id="interior11" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/11.jpg" />
+                </div>
+            </div>
+            <!-- 12 pic interior -->
+            <a class="fade_img" href="#interior12">
+                <img src="gallery/interior/12-small.jpg" />
+            </a>
+            <div id="interior12" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/12.jpg" />
+                </div>
+            </div>
+            <!-- 13 pic interior -->
+            <a class="fade_img" href="#interior10">
+                <img src="gallery/interior/13-small.jpg" />
+            </a>
+            <div id="interior13" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/13.jpg" />
+                </div>
+            </div>
+            <!-- 14 pic interior -->
+            <a class="fade_img" href="#interior14">
+                <img src="gallery/interior/14-small.jpg" />
+            </a>
+            <div id="interior14" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/14.jpg" />
+                </div>
+            </div>
+            <!-- 15 pic interior -->
+            <a class="fade_img" href="#interior15">
+                <img src="gallery/interior/15-small.jpg" />
+            </a>
+            <div id="interior15" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/15.jpg" />
+                </div>
+            </div>
+            <!-- 16 pic interior -->
+            <a class="fade_img" href="#interior16">
+                <img src="gallery/interior/16-small.jpg" />
+            </a>
+            <div id="interior16" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/16.jpg" />
+                </div>
+            </div>
+            <!-- 17 pic interior -->
+            <a class="fade_img" href="#interior17">
+                <img src="gallery/interior/17-small.jpg" />
+            </a>
+            <div id="interior17" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/17.jpg" />
+                </div>
+            </div>
+            <!-- 18 pic interior -->
+            <a class="fade_img" href="#interior18">
+                <img src="gallery/interior/18-small.jpg" />
+            </a>
+            <div id="interior18" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/18.jpg" />
+                </div>
+            </div>
+            <!-- 19 pic interior -->
+            <a class="fade_img" href="#interior19">
+                <img src="gallery/interior/19-small.jpg" />
+            </a>
+            <div id="interior19" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/19.jpg" />
+                </div>
+            </div>
+            <!-- 20 pic interior -->
+            <a class="fade_img" href="#interior20">
+                <img src="gallery/interior/20-small.jpg" />
+            </a>
+            <div id="interior20" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/20.jpg" />
+                </div>
+            </div>
+            <!-- 21 pic interior -->
+            <a class="fade_img" href="#interior21">
+                <img src="gallery/interior/21-small.jpg" />
+            </a>
+            <div id="interior21" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/21.jpg" />
+                </div>
+            </div>
+            <!-- 22 pic interior -->
+            <a class="fade_img" href="#interior22">
+                <img src="gallery/interior/22-small.jpg" />
+            </a>
+            <div id="interior22" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/22.jpg" />
+                </div>
+            </div>
+            <!-- 23 pic interior -->
+            <a class="fade_img" href="#interior23">
+                <img src="gallery/interior/23-small.jpg" />
+            </a>
+            <div id="interior23" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/23.jpg" />
+                </div>
+            </div>
+            <!-- 24 pic interior -->
+            <a class="fade_img" href="#interior24">
+                <img src="gallery/interior/24-small.jpg" />
+            </a>
+            <div id="interior24" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/24.jpg" />
+                </div>
+            </div>
+            <!-- 25 pic interior -->
+            <a class="fade_img" href="#interior25">
+                <img src="gallery/interior/25-small.jpg" />
+            </a>
+            <div id="interior25" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/25.jpg" />
+                </div>
+            </div>
+            <!-- 26 pic interior -->
+            <a class="fade_img" href="#interior26">
+                <img src="gallery/interior/26-small.jpg" />
+            </a>
+            <div id="interior26" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/26.jpg" />
+                </div>
+            </div>
+            <!-- 27 pic interior -->
+            <a class="fade_img" href="#interior27">
+                <img src="gallery/interior/27-small.jpg" />
+            </a>
+            <div id="interior27" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/27.jpg" />
+                </div>
+            </div>
+            <!-- 28 pic interior -->
+            <a class="fade_img" href="#interior28">
+                <img src="gallery/interior/28-small.jpg" />
+            </a>
+            <div id="interior28" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/28.jpg" />
+                </div>
+            </div>
+            <!-- 29 pic interior -->
+            <a class="fade_img" href="#interior29">
+                <img src="gallery/interior/29-small.jpg" />
+            </a>
+            <div id="interior29" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/29.jpg" />
+                </div>
+            </div>
+            <!-- 30 pic interior -->
+            <a class="fade_img" href="#interior30">
+                <img src="gallery/interior/30-small.jpg" />
+            </a>
+            <div id="interior30" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/30.jpg" />
+                </div>
+            </div>
+            <!-- 31 pic interior -->
+            <a class="fade_img" href="#interior31">
+                <img src="gallery/interior/31-small.jpg" />
+            </a>
+            <div id="interior31" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/31.jpg" />
+                </div>
+            </div>
+            <!-- 32 pic interior -->
+            <a class="fade_img" href="#interior32">
+                <img src="gallery/interior/32-small.jpg" />
+            </a>
+            <div id="interior32" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/32.jpg" />
+                </div>
+            </div>
+            <!-- 33 pic interior -->
+            <a class="fade_img" href="#interior33">
+                <img src="gallery/interior/33-small.jpg" />
+            </a>
+            <div id="interior33" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/33.jpg" />
+                </div>
+            </div>
+            <!-- 34 pic interior -->
+            <a class="fade_img" href="#interior34">
+                <img src="gallery/interior/34-small.jpg" />
+            </a>
+            <div id="interior34" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/34.jpg" />
+                </div>
+            </div>
+            <!-- 35 pic interior -->
+            <a class="fade_img" href="#interior35">
+                <img src="gallery/interior/35-small.jpg" />
+            </a>
+            <div id="interior35" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/35.jpg" />
+                </div>
+            </div>
+            <!-- 36 pic interior -->
+            <a class="fade_img" href="#interior36">
+                <img src="gallery/interior/36-small.jpg" />
+            </a>
+            <div id="interior36" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/36.jpg" />
+                </div>
+            </div>
+            <!-- 37 pic interior -->
+            <a class="fade_img" href="#interior37">
+                <img src="gallery/interior/37-small.jpg" />
+            </a>
+            <div id="interior37" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/37.jpg" />
+                </div>
+            </div>
+            <!-- 38 pic interior -->
+            <a class="fade_img" href="#interior38">
+                <img src="gallery/interior/38-small.jpg" />
+            </a>
+            <div id="interior38" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/38.jpg" />
+                </div>
+            </div>
+            <!-- 39 pic interior -->
+            <a class="fade_img" href="#interior39">
+                <img src="gallery/interior/39-small.jpg" />
+            </a>
+            <div id="interior39" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/39.jpg" />
+                </div>
+            </div>
+            <!-- 40 pic interior -->
+            <a class="fade_img" href="#interior40">
+                <img src="gallery/interior/40-small.jpg" />
+            </a>
+            <div id="interior40" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/40.jpg" />
+                </div>
+            </div>
+            <!-- 41 pic interior -->
+            <a class="fade_img" href="#interior41">
+                <img src="gallery/interior/41-small.jpg" />
+            </a>
+            <div id="interior41" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/41.jpg" />
+                </div>
+            </div>
+            <!-- 42 pic interior -->
+            <a class="fade_img" href="#interior42">
+                <img src="gallery/interior/42-small.jpg" />
+            </a>
+            <div id="interior42" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/42.jpg" />
+                </div>
+            </div>
+            <!-- 43 pic interior -->
+            <a class="fade_img" href="#interior43">
+                <img src="gallery/interior/43-small.jpg" />
+            </a>
+            <div id="interior43" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/43.jpg" />
+                </div>
+            </div>
+            <!-- 44 pic interior -->
+            <a class="fade_img" href="#interior44">
+                <img src="gallery/interior/44-small.jpg" />
+            </a>
+            <div id="interior44" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/44.jpg" />
+                </div>
+            </div>
+            <!-- 45 pic interior -->
+            <a class="fade_img" href="#interior45">
+                <img src="gallery/interior/45-small.jpg" />
+            </a>
+            <div id="interior45" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/45.jpg" />
+                </div>
+            </div>
+            <!-- 46 pic interior -->
+            <a class="fade_img" href="#interior46">
+                <img src="gallery/interior/46-small.jpg" />
+            </a>
+            <div id="interior46" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/46.jpg" />
+                </div>
+            </div>
+            <!-- 47 pic interior -->
+            <a class="fade_img" href="#interior47">
+                <img src="gallery/interior/47-small.jpg" />
+            </a>
+            <div id="interior47" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/interior/47.jpg" />
+                </div>
+            </div>
+            <!-- for image -->
+            <div class="for_img"></div>
+            <!-- end of interior gallery -->
+        </section>
+
+        <section id="residential">
+            <div class="space_gallery"></div>
+            <!-- 1 pic residential -->
+            <a class="fade_img" href="#residential1">
+                <img src="gallery/residential/1-small.jpg" />
+            </a>
+            <div id="residential1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/1.jpg" />
+                </div>
+            </div>
+            <!-- 2 pic residential -->
+            <a class="fade_img" href="#residential2">
+                <img src="gallery/residential/2-small.jpg" />
+            </a>
+            <div id="residential2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/2.jpg" />
+                </div>
+            </div>
+            <!-- 3 pic residential -->
+            <a class="fade_img" href="#residential3">
+                <img src="gallery/residential/3-small.jpg" />
+            </a>
+            <div id="residential3" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/3.jpg" />
+                </div>
+            </div>
+            <!-- 4 pic residential -->
+            <a class="fade_img" href="#residential4">
+                <img src="gallery/residential/4-small.jpg" />
+            </a>
+            <div id="residential4" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/4.jpg" />
+                </div>
+            </div>
+            <!-- 5 pic residential -->
+            <a class="fade_img" href="#residential5">
+                <img src="gallery/residential/5-small.jpg" />
+            </a>
+            <div id="residential5" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/5.jpg" />
+                </div>
+            </div>
+            <!-- 6 pic residential -->
+            <a class="fade_img" href="#residential6">
+                <img src="gallery/residential/6-small.jpg" />
+            </a>
+            <div id="residential6" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/6.jpg" />
+                </div>
+            </div>
+            <!-- 7 pic residential -->
+            <a class="fade_img" href="#residential7">
+                <img src="gallery/residential/7-small.jpg" />
+            </a>
+            <div id="residential7" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/7.jpg" />
+                </div>
+            </div>
+            <!-- 8 pic residential -->
+            <a class="fade_img" href="#residential8">
+                <img src="gallery/residential/8-small.jpg" />
+            </a>
+            <div id="residential8" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/8.jpg" />
+                </div>
+            </div>
+            <!-- 9 pic residential -->
+            <a class="fade_img" href="#residential9">
+                <img src="gallery/residential/9-small.jpg" />
+            </a>
+            <div id="residential9" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/9.jpg" />
+                </div>
+            </div>
+            <!-- 10 pic residential -->
+            <a class="fade_img" href="#residential10">
+                <img src="gallery/residential/10-small.jpg" />
+            </a>
+            <div id="residential10" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/10.jpg" />
+                </div>
+            </div>
+            <!-- 11 pic residential -->
+            <a class="fade_img" href="#residential11">
+                <img src="gallery/residential/11-small.jpg" />
+            </a>
+            <div id="residential11" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/11.jpg" />
+                </div>
+            </div>
+            <!-- 12 pic residential -->
+            <a class="fade_img" href="#residential12">
+                <img src="gallery/residential/12-small.jpg" />
+            </a>
+            <div id="residential12" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/12.jpg" />
+                </div>
+            </div>
+            <!-- 13 pic residential -->
+            <a class="fade_img" href="#residential13">
+                <img src="gallery/residential/13-small.jpg" />
+            </a>
+            <div id="residential13" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/13.jpg" />
+                </div>
+            </div>
+            <!-- 14 pic residential -->
+            <a class="fade_img" href="#residential14">
+                <img src="gallery/residential/14-small.jpg" />
+            </a>
+            <div id="residential14" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/14.jpg" />
+                </div>
+            </div>
+            <!-- 15 pic residential -->
+            <a class="fade_img" href="#residential15">
+                <img src="gallery/residential/15-small.jpg" />
+            </a>
+            <div id="residential15" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/15.jpg" />
+                </div>
+            </div>
+            <!-- 16 pic residential -->
+            <a class="fade_img" href="#residential16">
+                <img src="gallery/residential/16-small.jpg" />
+            </a>
+            <div id="residential16" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/16.jpg" />
+                </div>
+            </div>
+            <!-- 17 pic residential -->
+            <a class="fade_img" href="#residential17">
+                <img src="gallery/residential/17-small.jpg" />
+            </a>
+            <div id="residential17" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/17.jpg" />
+                </div>
+            </div>
+            <!-- 18 pic residential -->
+            <a class="fade_img" href="#residential18">
+                <img src="gallery/residential/18-small.jpg" />
+            </a>
+            <div id="residential18" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/18.jpg" />
+                </div>
+            </div>
+            <!-- 19 pic residential -->
+            <a class="fade_img" href="#residential19">
+                <img src="gallery/residential/19-small.jpg" />
+            </a>
+            <div id="residential19" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/19.jpg" />
+                </div>
+            </div>
+            <!-- 20 pic residential -->
+            <a class="fade_img" href="#residential20">
+                <img src="gallery/residential/20-small.jpg" />
+            </a>
+            <div id="residential20" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/20.jpg" />
+                </div>
+            </div>
+            <!-- 21 pic residential -->
+            <a class="fade_img" href="#residential21">
+                <img src="gallery/residential/21-small.jpg" />
+            </a>
+            <div id="residential21" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/21.jpg" />
+                </div>
+            </div>
+            <!-- 22 pic residential -->
+            <a class="fade_img" href="#residential22">
+                <img src="gallery/residential/22-small.jpg" />
+            </a>
+            <div id="residential22" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/22.jpg" />
+                </div>
+            </div>
+            <!-- 23 pic residential -->
+            <a class="fade_img" href="#residential23">
+                <img src="gallery/residential/23-small.jpg" />
+            </a>
+            <div id="residential23" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/23.jpg" />
+                </div>
+            </div>
+            <!-- 24 pic residential -->
+            <a class="fade_img" href="#residential24">
+                <img src="gallery/residential/24-small.jpg" />
+            </a>
+            <div id="residential24" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/24.jpg" />
+                </div>
+            </div>
+            <!-- 25 pic residential -->
+            <a class="fade_img" href="#residential25">
+                <img src="gallery/residential/25-small.jpg" />
+            </a>
+            <div id="residential25" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/25.jpg" />
+                </div>
+            </div>
+            <!-- 26 pic residential -->
+            <a class="fade_img" href="#residential26">
+                <img src="gallery/residential/26-small.jpg" />
+            </a>
+            <div id="residential26" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/residential/26.jpg" />
+                </div>
+            </div>
+            <!-- for image -->
+            <div class="for_img"></div>
+            <!-- for image -->
+            <div class="for_img"></div>
+            <!-- end of residential gallery -->
+        </section>
+
+        <section id="earth_design">
+            <div class="space_gallery"></div>
+            <!-- 1 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design1">
+                <img src="gallery/earth_design/1-small.jpg" />
+            </a>
+            <div id="earth_design1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/1.jpg" />
+                </div>
+            </div>
+            <!-- 2 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design2">
+                <img src="gallery/earth_design/2-small.jpg" />
+            </a>
+            <div id="earth_design2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/2.jpg" />
+                </div>
+            </div>
+            <!-- 3 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design3">
+                <img src="gallery/earth_design/3-small.jpg" />
+            </a>
+            <div id="earth_design3" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/3.jpg" />
+                </div>
+            </div>
+            <!-- 4 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design4">
+                <img src="gallery/earth_design/4-small.jpg" />
+            </a>
+            <div id="earth_design4" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/4.jpg" />
+                </div>
+            </div>
+            <!-- 5 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design5">
+                <img src="gallery/earth_design/5-small.jpg" />
+            </a>
+            <div id="earth_design5" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/5.jpg" />
+                </div>
+            </div>
+            <!-- 6 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design6">
+                <img src="gallery/earth_design/6-small.jpg" />
+            </a>
+            <div id="earth_design6" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/6.jpg" />
+                </div>
+            </div>
+            <!-- 7 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design7">
+                <img src="gallery/earth_design/7-small.jpg" />
+            </a>
+            <div id="earth_design7" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/7.jpg" />
+                </div>
+            </div>
+            <!-- 8 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design8">
+                <img src="gallery/earth_design/8-small.jpg" />
+            </a>
+            <div id="earth_design8" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/8.jpg" />
+                </div>
+            </div>
+            <!-- 9 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design9">
+                <img src="gallery/earth_design/9-small.jpg" />
+            </a>
+            <div id="earth_design9" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/9.jpg" />
+                </div>
+            </div>
+            <!-- 10 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design10">
+                <img src="gallery/earth_design/10-small.jpg" />
+            </a>
+            <div id="earth_design10" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/10.jpg" />
+                </div>
+            </div>
+            <!-- 11 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design11">
+                <img src="gallery/earth_design/11-small.jpg" />
+            </a>
+            <div id="earth_design11" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/11.jpg" />
+                </div>
+            </div>
+            <!-- 12 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design12">
+                <img src="gallery/earth_design/12-small.jpg" />
+            </a>
+            <div id="earth_design12" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/12.jpg" />
+                </div>
+            </div>
+            <!-- 13 pic earth_desgn -->
+            <a class="fade_img" href="#earth_design13">
+                <img src="gallery/earth_design/13-small.jpg" />
+            </a>
+            <div id="earth_design13" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/earth_design/13.jpg" />
+                </div>
+                <!-- for image -->
+                <div class="for_img"></div>
+                <!-- for image -->
+                <div class="for_img"></div>
+                <!-- for image -->
+                <div class="for_img"></div>
+                <!-- end of earth design gallery -->
+        </section>
+
+        <section id="graphic_design">
+            <div class="space_gallery"></div>
+            <!-- 1 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design1">
+                <img src="gallery/graphic_design/1.jpg" />
+            </a>
+            <div id="graphic_design1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/1.jpg" />
+                </div>
+            </div>
+            <!-- 2 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design2">
+                <img src="gallery/graphic_design/2.jpg" />
+            </a>
+            <div id="graphic_design2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/2.jpg" />
+                </div>
+            </div>
+            <!-- 3 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design3">
+                <img src="gallery/graphic_design/3.jpg" />
+            </a>
+            <div id="graphic_design3" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/3.jpg" />
+                </div>
+            </div>
+            <!-- 4 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design4">
+                <img src="gallery/graphic_design/4.jpg" />
+            </a>
+            <div id="graphic_design4" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/4.jpg" />
+                </div>
+            </div>
+            <!-- 5 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design5">
+                <img src="gallery/graphic_design/5.jpg" />
+            </a>
+            <div id="graphic_design5" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/5.jpg" />
+                </div>
+            </div>
+            <!-- 6 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design6">
+                <img src="gallery/graphic_design/6.jpg" />
+            </a>
+            <div id="graphic_design6" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/6.jpg" />
+                </div>
+            </div>
+            <!-- 7 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design7">
+                <img src="gallery/graphic_design/7.jpg" />
+            </a>
+            <div id="graphic_design7" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/7.jpg" />
+                </div>
+            </div>
+            <!-- 8 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design8">
+                <img src="gallery/graphic_design/8.jpg" />
+            </a>
+            <div id="graphic_design8" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/8.jpg" />
+                </div>
+            </div>
+            <!-- 9 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design9">
+                <img src="gallery/graphic_design/9.jpg" />
+            </a>
+            <div id="graphic_design9" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/9.jpg" />
+                </div>
+            </div>
+            <!-- 10 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design10">
+                <img src="gallery/graphic_design/10.jpg" />
+            </a>
+            <div id="graphic_design10" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/10.jpg" />
+                </div>
+            </div>
+            <!-- 11 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design11">
+                <img src="gallery/graphic_design/11.jpg" />
+            </a>
+            <div id="graphic_design11" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/11.jpg" />
+                </div>
+            </div>
+            <!-- 12 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design12">
+                <img src="gallery/graphic_design/12.jpg" />
+            </a>
+            <div id="graphic_design12" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/12.jpg" />
+                </div>
+            </div>
+            <!-- 13 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design13">
+                <img src="gallery/graphic_design/13.jpg" />
+            </a>
+            <div id="graphic_design13" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/13.jpg" />
+                </div>
+            </div>
+            <!-- 14 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design14">
+                <img src="gallery/graphic_design/14.jpg" />
+            </a>
+            <div id="graphic_design14" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/14.jpg" />
+                </div>
+            </div>
+            <!-- 15 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design15">
+                <img src="gallery/graphic_design/15.jpg" />
+            </a>
+            <div id="graphic_design15" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/15.jpg" />
+                </div>
+            </div>
+            <!-- 16 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design16">
+                <img src="gallery/graphic_design/16.jpg" />
+            </a>
+            <div id="graphic_design16" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/16.jpg" />
+                </div>
+            </div>
+            <!-- 17 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design17">
+                <img src="gallery/graphic_design/17.jpg" />
+            </a>
+            <div id="graphic_design17" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/17.jpg" />
+                </div>
+            </div>
+            <!-- 18 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design18">
+                <img src="gallery/graphic_design/18.jpg" />
+            </a>
+            <div id="graphic_design18" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/18.jpg" />
+                </div>
+            </div>
+            <!-- 19 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design19">
+                <img src="gallery/graphic_design/19.jpg" />
+            </a>
+            <div id="graphic_design19" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/19.jpg" />
+                </div>
+            </div>
+            <!-- 20 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design20">
+                <img src="gallery/graphic_design/20.jpg" />
+            </a>
+            <div id="graphic_design20" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/20.jpg" />
+                </div>
+            </div>
+            <!-- 21 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design21">
+                <img src="gallery/graphic_design/21.jpg" />
+            </a>
+            <div id="graphic_design21" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/21.jpg" />
+                </div>
+            </div>
+            <!-- 22 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design22">
+                <img src="gallery/graphic_design/22.jpg" />
+            </a>
+            <div id="graphic_design22" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/22.jpg" />
+                </div>
+            </div>
+            <!-- 23 pic graphic_design -->
+            <a class="fade_img_pink" href="#graphic_design23">
+                <img src="gallery/graphic_design/23.jpg" />
+            </a>
+            <div id="graphic_design23" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="big" src="gallery/graphic_design/23.jpg" />
+                </div>
+            </div>
+            <!-- for image -->
+            <div class="for_img"></div>
+            <!-- end of graphic_design gallery -->
+        </section>
+        <script>
+            $(function () {
+                $('.lazy').lazy();
+            });
+        </script>
+
+    </main>
+    <div class="space_gallery"></div>
+    <section id="profil_contact" class="profil">
+        <p> ARCH. NIKOLAY SLAVOV </P>
+        <p> ARCHITECTURE, INTERIOR DESIGN, GREEN BUILDINGS AND BUILDING WITH EARTH MATERIALS, HI LEVEL OF 3D VIZUSALIZATION,
+            ILLUSTRATION AND 3D ANIMATION.
+        </p>
+        <p> --> MEMBER OF THE CHAMBER OF ARCHITECTS IN BULGARIA </BR>
+            --> MEMBER OF THE UNION OF ARCHITECTS IN BULGARIA </BR>
+            --> UNIVERSITY OF ARCHITECTURE CIVIL ENGINEERING AND GEODESY, SOFIA BULGARIA MASTER DEGREE IN ARCHITECTURE </BR>
+            --> DEPARTMENT OF HISTORY AND THEORY OF ARCHITECTURE, FACULTY OF ARCHITECTURE, HAW-HAMBURG GERMANY</p>
+        <p>MILD HOME COMPETITION 2014 SOUTH-EAST EUROPE - THIRD PRIZE (MY MODULAR, INTELLIGENT, LOW COST, DO IT YOURSELF, NEARLY
+            ZERO ENERGY HOUSE FOR OUR ECO GREEN VILLAGE)</p>
+    </section>
+    <footer>
+        <p>&copy; ARCH. NIKOLAY SLAVOV</p>
+        <p>ARCH.SLAVOV@GMAIL.COM</p>
+        <p>+359 888 295 723</p>
+    </footer>
+</body>
+
+</html>

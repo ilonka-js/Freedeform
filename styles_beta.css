@@ -1,0 +1,280 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+	margin: 0;
+}
+
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* ------------HEADER SECTION------------- */
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  z-index: 88888;
+}
+
+header img {
+  max-width: 30vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#nav {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  width: 60vw;
+  left: 0;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+header ul li a {
+  color: #999999;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+header ul li a:hover {
+  color: #ED9124;
+  text-decoration: underline;
+}
+
+.space_gallery{
+	width: 100vw;
+	height:10em;
+}
+
+#home {
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 85vh;
+  width: 60vw;
+  background: #ED9124; 
+  cursor: pointer;
+  z-index: 1;
+}
+
+@font-face {
+    font-family: myThinFont;
+    src: url(LANENAR_.ttf);
+}
+
+.space_text {
+  padding-top: 8em;
+  font-size: 2em;
+  color: white;
+  font-family: "myThinFont";
+  word-wrap: break-word;
+  text-align: center;
+}
+
+/* ------------MAIN SECTION------------- */
+.for_img {
+  display: inline-block;
+  width: 14vw;
+  height: 8em;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 60vw;
+  left: 0;
+  margin: auto;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 2em;
+}
+
+main section img {
+	width: 14vw;
+	height: 8em;
+	object-fit: cover;
+	margin: 0.1em;
+	margin-bottom: 1em;
+	-webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	z-index: 1;
+}
+
+main section img:hover {
+  filter: none;
+}
+
+.big {
+  width: auto;
+  height: 90vh;
+  width: 80vw;
+  object-fit:scale-down;
+  -webkit-filter: none; 
+  -moz-filter: none;
+  filter: none;
+}
+
+.big:hover {
+  cursor:auto;
+  -webkit-filter: none; 
+  -moz-filter: none;
+  filter: none;
+}
+
+.modalDialog {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(255,255,255,1);
+	z-index: 99999;
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 100%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.close {
+	color: #999999;
+	position: fixed;
+	right: 0.1em;
+	top: 0em;
+	font-size: 3em;
+	text-decoration: none;
+	font-family: "myThinFont";
+}
+
+.close:hover {
+	color: #cccccc;
+}
+
+/* ------------FOOTER SECTION------------- */
+.profil {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex-wrap: wrap;
+  font-family: monospace;
+  padding: 1em;
+  margin-top: 15em;
+  margin-bottom: 2em;
+}
+
+.profil p {
+  padding: 0;
+  margin: 0.5em;
+  font-size: 1.1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  color: #cccccc;
+}
+
+footer:hover {
+  color: #999999;
+}
+
+footer p {
+  padding: 0em 1em;
+  margin: 0.5em 0em;
+  font-size: 0.9em;
+}
+
+/* ------------FOR SMALL SCREEN AND TELEPHONE------------- */
+@media screen and (max-width: 767px) {
+	
+	header img {
+		max-width: 80vw;
+	}
+	
+	#nav {
+		width: 80vw;
+		margin: auto;
+	}
+	
+	header ul li {
+		display: inline-block;
+	}
+	
+	#home {
+		width: 80vw;
+	}
+	
+	.space_gallery{
+	height:12em;
+	}
+	
+	main section {
+		width: 80vw;
+		margin: auto;
+	}
+	
+	main section img {
+		width: 80vw;
+		height: 8em;
+		margin: 0em;
+	}
+	
+	.profil {
+		margin: auto;
+		width: 90vw;
+	}
+	
+	footer {
+		margin: auto;
+		width: 80vw;
+	}
+}
