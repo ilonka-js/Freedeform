@@ -79,7 +79,7 @@ header ul li a:hover {
 
 @font-face {
     font-family: myThinFont;
-    src: url(LANENAR_.ttf);
+    src: url(../fonts/LANENAR_.ttf);
 }
 
 .space_text {
@@ -264,8 +264,8 @@ footer p {
 	
 	main section img {
 		width: 80vw;
-		height: 8em;
-		margin: 0em;
+		height: 14em;
+		margin-bottom: 2em;
 	}
 	
 	.profil {
